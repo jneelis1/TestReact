@@ -26,7 +26,7 @@ app.get('/query', function (req, res) {
 
       if (result) {
         res.json({
-          url: result[7]["url"]
+          url: result[8]["url"]
         });
       }
     });

@@ -24,7 +24,7 @@ app.get('/query', (req, res) => {
             if (err) res.send(err);
             if (result){
               res.json({
-                url: result[7]["url"]
+                url: result[8]["url"]
               });
             }
         });
