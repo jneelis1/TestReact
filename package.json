@@ -1,0 +1,29 @@
+{
+  "name": "react-express-elb",
+  "version": "1.0.0",
+  "description": "react-express-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js",
+    "build": "babel server.js --out-file server.compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "express_test"
+  },
+  "author": "jneelis",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
+  }
+}
